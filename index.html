@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Aflah</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Script tambahan bisa disisipkan di sini jika diperlukan -->
+  <style>
+    /* Scroll halus */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <h1>Website Aflah</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Spacer agar konten tidak tertutup header fixed -->
+  <div class="header-spacer"></div>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Halo, Selamat Datang di Website Saya! Ini adalah website untuk belajar dan mengerjakan tugas saya.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Saya adalah Aflah Sholeh Wahib Utomo, mahasiswa Teknik Informatika di Universitas Riau. Saat ini sedang mempelajari cara pembuatan website, nantikan perkembangannya ya!!</p>
+  </section>
+
+  <!-- Section Project: Gabungan Laporan UTS & Multimedia UTS -->
+  <section id="project">
+    <h2>Project</h2>
+    <p class="small-text">Ini adalah project dan tugas saya!</p>
+    
+    <!-- Subbagian: Laporan UTS -->
+    <div class="project-laporan">
+      <h3>Laporan UTS</h3>
+      <p class="small-text">Berikut adalah project laporan UTS Sistem Multimedia saya. File PDF dapat dilihat atau diunduh di bawah.</p>
+      <iframe src="LAPORAN UTS SISTEM MULTIMEDIA AFLAH SHOLEH WAHIB UTOMO 2407125919.pdf" width="100%" height="400px">
+        File tidak dapat ditampilkan. <a href="LAPORAN UTS SISTEM MULTIMEDIA AFLAH SHOLEH WAHIB UTOMO 2407125919.pdf">Klik di sini untuk download</a>.
+      </iframe>
+      <br>
+      <a href="LAPORAN UTS SISTEM MULTIMEDIA AFLAH SHOLEH WAHIB UTOMO 2407125919.pdf" download class="download-btn">Download Laporan PDF</a>
+    </div>
+    
+    <!-- Subbagian: Multimedia UTS -->
+    <div class="project-multimedia">
+      <h3>Multimedia UTS</h3>
+      <p class="small-text">Contoh elemen multimedia dengan konten yang sama namun format berbeda.</p>
+      
+      <!-- 1. Format Teks -->
+      <article id="teks">
+        <h4>1. Format Teks</h4>
+        <div class="grid">
+          <div class="grid-item" style="font-family: 'Times New Roman', serif;">Ada ular di sepatuku (Times New Roman)</div>
+          <div class="grid-item" style="font-family: 'Calibri', sans-serif;">Ada ular di sepatuku (Calibri)</div>
+          <div class="grid-item" style="font-family: 'Arial', sans-serif;">Ada ular di sepatuku (Arial)</div>
+          <div class="grid-item" style="font-family: 'Comic Sans MS', cursive;">Ada ular di sepatuku (Comic Sans MS)</div>
+          <div class="grid-item" style="font-family: 'Roboto', sans-serif;">Ada ular di sepatuku (Roboto)</div>
+          <div class="grid-item" style="font-family: 'Helvetica', sans-serif;">Ada ular di sepatuku (Helvetica)</div>
+          <div class="grid-item" style="font-family: 'Open Sans', sans-serif;">Ada ular di sepatuku (Open Sans)</div>
+          <div class="grid-item" style="font-family: 'Poppins', sans-serif;">Ada ular di sepatuku (Poppins)</div>
+          <div class="grid-item" style="font-family: 'Verdana', sans-serif;">Ada ular di sepatuku (Verdana)</div>
+          <div class="grid-item" style="font-family: 'Tahoma', sans-serif;">Ada ular di sepatuku (Tahoma)</div>
+        </div>
+      </article>
+      
+      <!-- 2. Format Gambar -->
+      <article id="gambar">
+        <h4>2. Format Gambar</h4>
+        <div class="grid">
+          <div class="grid-item">
+            <a href="images/gambar1.jpg" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar1.jpg" alt="JPEG">
+            </a>
+            <p>JPEG</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar2.png" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar2.png" alt="PNG">
+            </a>
+            <p>PNG</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar3.gif" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar3.gif" alt="GIF">
+            </a>
+            <p>GIF</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar4.bmp" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar4.bmp" alt="BMP">
+            </a>
+            <p>BMP</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar5.svg" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar5.svg" alt="SVG">
+            </a>
+            <p>SVG</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar6.tiff" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar6.tiff" alt="TIFF">
+            </a>
+            <p>TIFF</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar7.webp" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar7.webp" alt="WEBP">
+            </a>
+            <p>WEBP</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar8.heif" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar8.heif" alt="HEIF">
+            </a>
+            <p>HEIF</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar9.raw" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar9.raw" alt="RAW">
+            </a>
+            <p>RAW</p>
+          </div>
+          <div class="grid-item">
+            <a href="images/gambar10.ico" target="_blank">
+              <img class="gambar-thumbnail" src="images/gambar10.ico" alt="ICO">
+            </a>
+            <p>ICO</p>
+          </div>
+        </div>
+      </article>
+      
+        
+      </article>
+      
+      <!-- 3. Format Audio -->
+      <article id="audio">
+        <h4>3. Format Audio</h4>
+        <div class="grid">
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.mp3"></audio><p>MP3</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.wav"></audio><p>WAV</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.aac"></audio><p>AAC</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.flac"></audio><p>FLAC</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.ogg"></audio><p>OGG</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.aiff"></audio><p>AIFF</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.m4a"></audio><p>ALAC (M4A)</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.wma"></audio><p>WMA</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.dsf"></audio><p>DSD</p></div>
+          <div class="grid-item"><audio controls src="audio/TELEPON IPHONE SOUND EFFECT - Salin.amr"></audio><p>AMR</p></div>
+        </div>
+      </article>
+      
+      <!-- 4. Format Video -->
+      <article id="video">
+        <h4>4. Format Video</h4>
+        <div class="grid">
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).mp4"></video><p>MP4</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).avi"></video><p>AVI</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).mkv"></video><p>MKV</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).mov"></video><p>MOV</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).webm"></video><p>WEBM</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).flv"></video><p>FLV</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).3gp"></video><p>3GP</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).wmv"></video><p>WMV</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).avchd"></video><p>AVCHD</p></div>
+          <div class="grid-item"><video controls src="video/yt1z.net - video lucu 30 detik story whatsap (480p).mpeg"></video><p>MPEG-2</p></div>
+        </div>
+      </article>
+      
+      <!-- 5. Format Animasi -->
+      <article id="animasi">
+        <h4>5. Format Animasi</h4>
+        <div class="grid">
+          <div class="grid-item">
+            <video controls src="animasi/white-board-animation-tutorial-whiteboardanimation-ytshorts.savetube.me.mp4"></video>
+            <p>Whiteboard</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/animasi-2d-indonesia-whale-ytshorts.savetube.me.mp4"></video>
+            <p>2D</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/animasi-clay-clay-animation-ytshorts.savetube.me.mp4"></video>
+            <p>Clay</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/bench-stop-motion-animated-short-film-animation-waaber-bench-ytshorts.savetube.me.mp4"></video>
+            <p>Stop Motion</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/cutout-animation-the-witch-and-the-cat-ytshorts.savetube.me.mp4"></video>
+            <p>Cutout</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/hybrid-animation-test-1-ytshorts.savetube.me.mp4"></video>
+            <p>Hybrid</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/ini-dia-film-animasi-3d-terbaik-karya-anak-smk-banjarnegara-berkualitas-hd-ytshorts.savetube.me.mp4"></video>
+            <p>3D</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/the-cats-trail-rotoscope-animation-final-ytshorts.savetube.me.mp4"></video>
+            <p>Rotoscope</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/typography-animation-ytshorts.savetube.me.mp4"></video>
+            <p>Typography</p>
+          </div>
+          <div class="grid-item">
+            <video controls src="animasi/videoplayback.mp4"></video>
+            <p>Lainnya</p>
+          </div>
+        </div>
+      </article>
+      
+      
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: aflahutomo8@gmail.com</p>
+    <p>Instagram: <a href="https://instagram.com/flaahh__" target="_blank">@flaahh__</a></p>
+    <p>Whatsapp: 089522346072</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aflah Sholeh Wahib Utomo</p>
+  </footer>
+</body>
+</html>
