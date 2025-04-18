@@ -100,18 +100,25 @@
   }
   
   /* Profile Photo di About Me */
-  .profile-container {
-    text-align: center;
-    margin-bottom: 15px;
-  }
   
-  .profile-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #1e88e5;
-  }
+  .profile-container {
+  display: flex;           /* Aktifkan flexbox */
+  justify-content: center; /* Tengah horizontal */
+  align-items: center;     /* Tengah vertikal */
+  margin: 0 auto;         /* Pusatkan container */
+  width: fit-content;     /* Sesuaikan lebar dengan foto */
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1e88e5;
+  /* Pastikan tidak ada properti di bawah ini: */
+  margin: 0; 
+  float: none;
+}
   
   /* Grid untuk Multimedia */
   .grid {
@@ -249,4 +256,20 @@
     font-size: 14px;
   }
   
-  
+  /* Ganti .format-desc yang lama dengan ini */
+.format-desc {
+  font-size: 0.75rem;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-top: 8px;
+  border-left: 3px solid #1e88e5;
+  /* Hapus display: none */
+}
+
+/* Opsional: Agar keterangan lebih rapi */
+.format-desc strong {
+  color: #1e88e5;
+}
+
+
